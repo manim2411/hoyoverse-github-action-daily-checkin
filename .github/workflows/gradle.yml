@@ -36,9 +36,9 @@ jobs:
       with:
         arguments: build test
       env:
-        USER_1_ID: ${{ secrets.USER1_TOKEN_ID }}
-        USER_1_TOKEN: ${{ secrets.USER1_TOKEN }}
-        USER_2_ID: ${{ secrets.USER2_TOKEN_ID }}
-        USER_2_TOKEN: ${{ secrets.USER2_TOKEN }}
-        USER_3_ID: ${{ secrets.USER3_TOKEN_ID }}
-        USER_3_TOKEN: ${{ secrets.USER3_TOKEN }}
+        USER_1_LTUID: ${{ secrets.USER1_LTUID }}
+        USER_1_LTOKEN: ${{ secrets.USER1_LTOKEN }}
+        USER_2_LTUID: ${{ secrets.USER2_LTUID }}
+        USER_2_LTOKEN: ${{ secrets.USER2_LTOKEN }}
+        USER_3_LTUID: ${{ secrets.USER3_LTUID }}
+        USER_3_LTOKEN: ${{ secrets.USER3_LTOKEN }}
